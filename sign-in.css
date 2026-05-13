@@ -12,9 +12,12 @@
   }
 
 body{
+    height: auto;
     background-color: var(--faint-black);
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0,0.5)), url("img/img-tiles.jpg");
+    background-repeat: no-repeat;
 }
 
 .wrapper-1 {
@@ -331,9 +334,7 @@ form .radio-btn a:hover {
 
     /* section 1 */
 
-    body {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0,0,0.5)), url("img/img-tiles.jpg");
-    }
+    
 
     .section-1 {
     margin-bottom: 0;
@@ -374,8 +375,13 @@ form .radio-btn a:hover {
         height: 90px;
         margin-bottom: 10px;
     }
-}
 
+    
+    
+
+
+
+}
 
 
 
